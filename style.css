@@ -1,0 +1,32 @@
+body{
+  margin: 20%;
+}
+
+main{
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+/* ------------------------------------------- */
+/* ---------------Exercice-1---------------- */
+/* ------------------------------------------- */
+
+#bloc1{
+  background: green;
+  padding: 20px;
+  margin : 20px;
+  border: 1px solid black;
+}
+
+#bloc2{
+  background: violet;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#bloc3{
+  background: orange;
+  padding: 20px;
+  border: 1px solid black;
+}
