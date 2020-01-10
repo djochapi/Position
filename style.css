@@ -89,3 +89,40 @@ main{
   padding: 20px;
   border: 1px solid black;
 }
+
+/* ------------------------------------------- */
+/* ---------------Exercice-4---------------- */
+/* ------------------------------------------- */
+
+#bloc10{
+  position: relative;
+  background: lightblue;
+  padding: 20px;
+  margin : 20px;
+  border: 1px solid black;
+  margin-bottom: 250px;
+}
+
+#bloc11{
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  background: green;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#bloc12{
+  background: violet;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#bloc13{
+  position: absolute;
+  top: 90px;
+  left: -50px;
+  background: orange;
+  padding: 20px;
+  border: 1px solid black;
+}
