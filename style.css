@@ -30,3 +30,33 @@ main{
   padding: 20px;
   border: 1px solid black;
 }
+
+/* ------------------------------------------- */
+/* ---------------Exercice-2---------------- */
+/* ------------------------------------------- */
+
+#bloc4{
+  position: relative;
+  background: green;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+#bloc5{
+  position: relative;
+  left: 100px;
+  right: -20px;
+  background: violet;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#bloc6{
+  position: relative;
+  background: orange;
+  padding: 20px;
+  left: -80px;
+  right: 150px;
+  border: 1px solid black;
+}
