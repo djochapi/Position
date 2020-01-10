@@ -194,3 +194,79 @@ main{
   left: 120px;
   top: 100px;
 }
+
+/* ------------------------------------------- */
+/* ---------------Exercice-6---------------- */
+/* ------------------------------------------- */
+
+#bloc19{
+  box-sizing: content-box;
+  width: 20%;
+  height: 200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background: lightblue;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#bloc20{
+  box-sizing: content-box;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  background: green;
+  margin : 20px;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 2;
+}
+
+#bloc21{
+  box-sizing: content-box;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  opacity: 0.9;
+  background: violet;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 4;
+}
+
+#bloc22{
+  box-sizing: content-box;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: orange;
+  border: 1px solid black;
+  padding: 20px;
+  left: 100px;
+  top: 110px;
+  z-index: 3;
+}
+
+#bloc23{
+  box-sizing: content-box;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: yellow;
+  padding: 20px;
+  margin : 20px;
+  border: 1px solid black;
+  left: 120px;
+  top: 120px;
+  z-index: 1;
+}
+
+/* ------------------------------------------- */
+/* ---------------Exercice-7---------------- */
+/* ------------------------------------------- */
