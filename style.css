@@ -12,20 +12,20 @@ main{
 /* ---------------Exercice-1---------------- */
 /* ------------------------------------------- */
 
-#bloc1{
+#exo1CarreVert{
   background: green;
   padding: 20px;
   margin : 20px;
   border: 1px solid black;
 }
 
-#bloc2{
+#exo1CarreViolet{
   background: violet;
   padding: 20px;
   border: 1px solid black;
 }
 
-#bloc3{
+#exo1CarreOrange{
   background: orange;
   padding: 20px;
   border: 1px solid black;
@@ -35,7 +35,7 @@ main{
 /* ---------------Exercice-2---------------- */
 /* ------------------------------------------- */
 
-#bloc4{
+#exo2CarreVert{
   position: relative;
   background: green;
   padding: 20px;
@@ -43,7 +43,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc5{
+#exo2CarreViolet{
   position: relative;
   left: 100px;
   right: -20px;
@@ -52,11 +52,11 @@ main{
   border: 1px solid black;
 }
 
-#bloc6{
+#exo2CarreOrange{
   position: relative;
   background: orange;
   padding: 20px;
-  left: -80px;
+  left: -180px;
   right: 150px;
   border: 1px solid black;
 }
@@ -65,7 +65,7 @@ main{
 /* ---------------Exercice-3---------------- */
 /* ------------------------------------------- */
 
-#bloc7{
+#exo3CarreVert{
   position: relative;
   background: green;
   padding: 20px;
@@ -74,14 +74,14 @@ main{
   margin-bottom: 100px;
 }
 
-#bloc8{
+#exo3CarreViolet{
   position: relative;
   background: violet;
   padding: 20px;
   border: 1px solid black;
 }
 
-#bloc9{
+#exo3Carreorange{
   position: absolute;
   top: 90px;
   left: 150px;
@@ -94,7 +94,7 @@ main{
 /* ---------------Exercice-4---------------- */
 /* ------------------------------------------- */
 
-#bloc10{
+#exo4CarreBlue{
   position: relative;
   background: lightblue;
   padding: 20px;
@@ -103,7 +103,7 @@ main{
   margin-bottom: 250px;
 }
 
-#bloc11{
+#exo4CarreVert{
   position: absolute;
   top: 90px;
   left: 200px;
@@ -112,13 +112,13 @@ main{
   border: 1px solid black;
 }
 
-#bloc12{
+#exo4CarreViolet{
   background: violet;
   padding: 20px;
   border: 1px solid black;
 }
 
-#bloc13{
+#exo4CarreOrange{
   position: absolute;
   top: 90px;
   left: -50px;
@@ -131,7 +131,7 @@ main{
 /* ---------------Exercice-5---------------- */
 /* ------------------------------------------- */
 
-#bloc14{
+#exo5CarreBlue{
   box-sizing: content-box;
   width: 19.5%;
   height: 200px;
@@ -144,7 +144,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc15{
+#exo5Carrevert{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -157,7 +157,7 @@ main{
   padding: 20px;
 }
 
-#bloc16{
+#exo5CarreViolet{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -170,7 +170,7 @@ main{
   padding: 20px;
 }
 
-#bloc17{
+#exo5CarreOrange{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -182,7 +182,7 @@ main{
   top: 120px;
 }
 
-#bloc18{
+#exo5CarreJaune{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -195,11 +195,62 @@ main{
   top: 100px;
 }
 
+/*--------------------------------------------------------*/
+/*------------------- EXERCICE 5 (relative)---------------*/
+/*--------------------------------------------------------*/
+
+#exercice5-rel .carreBleu {
+  border: 1px solid black;
+  background-color: lightblue;
+  position: relative;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  padding: 25px;
+}
+
+#exercice5-rel .carreVert {
+  border: 1px solid black;
+  background-color: green;
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+#exercice5-rel .carreViolet {
+  border: 1px solid black;
+  background-color: violet;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 85px;
+  bottom: 72px;
+}
+
+#exercice5-rel .carreOrange {
+  border: 1px solid black;
+  background-color: orange;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  bottom: 50px;
+}
+
+#exercice5-rel .carreJaune {
+  border: 1px solid black;
+  background-color: yellow;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 85px;
+  bottom: 122px;
+}
+
 /* ------------------------------------------- */
 /* ---------------Exercice-6---------------- */
 /* ------------------------------------------- */
 
-#bloc19{
+#exo6CarreBlue{
   box-sizing: content-box;
   width: 20%;
   height: 200px;
@@ -212,7 +263,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc20{
+#exo6CarreVert{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -226,7 +277,7 @@ main{
   z-index: 2;
 }
 
-#bloc21{
+#exo6CarreViolet{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -240,7 +291,7 @@ main{
   z-index: 4;
 }
 
-#bloc22{
+#exo6CarreOrange{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -253,7 +304,7 @@ main{
   z-index: 3;
 }
 
-#bloc23{
+#exo6CarreJaune{
   box-sizing: content-box;
   width: 40px;
   height: 40px;
@@ -271,7 +322,7 @@ main{
 /* ---------------Exercice-7---------------- */
 /* ------------------------------------------- */
 
-#blocExo7{
+#CarreNoir{
   position: relative;
   border: 1px solid black;
   box-sizing: content-box;
@@ -280,7 +331,7 @@ main{
   padding: 20px;
 }
 
-#bloc24{
+#exo7CarreBlue{
   position: absolute;
   background: lightblue;
   padding: 20px;
@@ -290,7 +341,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc25{
+#exo7Carrevert{
   position: absolute;
   left: 102px;
   background:green;
@@ -301,7 +352,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc26{
+#exo7CarreOrange{
   position: absolute;
   top: 102px;
   background: lightcoral;
@@ -312,7 +363,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc27{
+#exo7CarreGris{
   position: absolute;
   top: 184px;
   right: 20px;
@@ -324,7 +375,7 @@ main{
   border: 1px solid black;
 }
 
-#bloc28{
+#exo7Carrejaune{
   position: absolute;
   top: 184px;
   right: 102px;
